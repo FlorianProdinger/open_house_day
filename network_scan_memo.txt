@@ -1,0 +1,8 @@
+how to find the raspi in the network
+
+use "ip a" to check if the vpn is off
+use ip r to get the routers IP
+
+use nmap -sn **routerip YY/XX **
+
+computer returns IP addresses
