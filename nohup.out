@@ -1,0 +1,115 @@
+[I 16:47:04.292 NotebookApp] Writing notebook server cookie secret to /home/pi/.local/share/jupyter/runtime/notebook_cookie_secret
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 2025-06-29 16:47:08.358 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-06-29 16:47:08.358 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-06-29 16:47:08.358 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 16:47:08.376 NotebookApp] Error loading server extension jupyterlab
+    Traceback (most recent call last):
+      File "/usr/lib/python3/dist-packages/notebook/notebookapp.py", line 1991, in init_server_extensions
+        func(self)
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/serverextension.py", line 71, in load_jupyter_server_extension
+        extension.initialize()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/labapp.py", line 926, in initialize
+        super().initialize()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyter_server/extension/application.py", line 437, in initialize
+        self._prepare_handlers()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyter_server/extension/application.py", line 327, in _prepare_handlers
+        self.initialize_handlers()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/labapp.py", line 738, in initialize_handlers
+        page_config["token"] = self.serverapp.identity_provider.token
+    AttributeError: 'NotebookApp' object has no attribute 'identity_provider'
+[I 16:47:08.380 NotebookApp] Serving notebooks from local directory: /home/pi/Documents/20250614_open_house_day
+[I 16:47:08.381 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 16:47:08.381 NotebookApp] http://localhost:8888/?token=82ac4d1be84a9e43992745def8055a8d823edd0ddccd76be
+[I 16:47:08.381 NotebookApp]  or http://127.0.0.1:8888/?token=82ac4d1be84a9e43992745def8055a8d823edd0ddccd76be
+[I 16:47:08.381 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:47:08.390 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/pi/.local/share/jupyter/runtime/nbserver-1840-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=82ac4d1be84a9e43992745def8055a8d823edd0ddccd76be
+     or http://127.0.0.1:8888/?token=82ac4d1be84a9e43992745def8055a8d823edd0ddccd76be
+[C 16:55:07.282 NotebookApp] received signal 15, stopping
+[I 16:55:07.283 NotebookApp] Shutting down 0 kernels
+[I 16:55:07.284 NotebookApp] Shutting down 0 terminals
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 2025-06-29 16:57:01.961 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-06-29 16:57:01.962 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-06-29 16:57:01.962 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 16:57:01.980 NotebookApp] Error loading server extension jupyterlab
+    Traceback (most recent call last):
+      File "/usr/lib/python3/dist-packages/notebook/notebookapp.py", line 1991, in init_server_extensions
+        func(self)
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/serverextension.py", line 71, in load_jupyter_server_extension
+        extension.initialize()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/labapp.py", line 926, in initialize
+        super().initialize()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyter_server/extension/application.py", line 437, in initialize
+        self._prepare_handlers()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyter_server/extension/application.py", line 327, in _prepare_handlers
+        self.initialize_handlers()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/labapp.py", line 738, in initialize_handlers
+        page_config["token"] = self.serverapp.identity_provider.token
+    AttributeError: 'NotebookApp' object has no attribute 'identity_provider'
+[I 16:57:01.984 NotebookApp] Serving notebooks from local directory: /home/pi/Documents/20250614_open_house_day
+[I 16:57:01.984 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 16:57:01.984 NotebookApp] http://localhost:8888/?token=8a031c9eeb3e39fd0f8c063c40cf3c060d447d0c16c18a91
+[I 16:57:01.984 NotebookApp]  or http://127.0.0.1:8888/?token=8a031c9eeb3e39fd0f8c063c40cf3c060d447d0c16c18a91
+[I 16:57:01.984 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:57:01.993 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/pi/.local/share/jupyter/runtime/nbserver-4019-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=8a031c9eeb3e39fd0f8c063c40cf3c060d447d0c16c18a91
+     or http://127.0.0.1:8888/?token=8a031c9eeb3e39fd0f8c063c40cf3c060d447d0c16c18a91
+[C 16:58:33.669 NotebookApp] received signal 15, stopping
+[I 16:58:33.671 NotebookApp] Shutting down 0 kernels
+[I 16:58:33.673 NotebookApp] Shutting down 0 terminals
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 2025-06-29 16:59:03.062 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-06-29 16:59:03.063 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-06-29 16:59:03.063 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-06-29 16:59:03.063 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 16:59:03.118 NotebookApp] Error loading server extension jupyterlab
+    Traceback (most recent call last):
+      File "/usr/lib/python3/dist-packages/notebook/notebookapp.py", line 1991, in init_server_extensions
+        func(self)
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/serverextension.py", line 71, in load_jupyter_server_extension
+        extension.initialize()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/labapp.py", line 926, in initialize
+        super().initialize()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyter_server/extension/application.py", line 437, in initialize
+        self._prepare_handlers()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyter_server/extension/application.py", line 327, in _prepare_handlers
+        self.initialize_handlers()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/labapp.py", line 738, in initialize_handlers
+        page_config["token"] = self.serverapp.identity_provider.token
+    AttributeError: 'NotebookApp' object has no attribute 'identity_provider'
+[I 16:59:03.130 NotebookApp] Serving notebooks from local directory: /home/pi/Documents/20250614_open_house_day
+[I 16:59:03.131 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 16:59:03.131 NotebookApp] http://raspberrypi:8888/?token=ed655c4c4fc42bcef895c7d822e3e01152e2c7090403e890
+[I 16:59:03.132 NotebookApp]  or http://127.0.0.1:8888/?token=ed655c4c4fc42bcef895c7d822e3e01152e2c7090403e890
+[I 16:59:03.132 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:59:03.158 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/pi/.local/share/jupyter/runtime/nbserver-5010-open.html
+    Or copy and paste one of these URLs:
+        http://raspberrypi:8888/?token=ed655c4c4fc42bcef895c7d822e3e01152e2c7090403e890
+     or http://127.0.0.1:8888/?token=ed655c4c4fc42bcef895c7d822e3e01152e2c7090403e890
+[I 16:59:25.052 NotebookApp] 302 GET / (192.168.40.129) 1.460000ms
+[I 16:59:25.063 NotebookApp] 302 GET /tree? (192.168.40.129) 1.490000ms
+[W 16:59:28.673 NotebookApp] 401 POST /login?next=%2Ftree%3F (192.168.40.129) 3.340000ms referer=http://192.168.40.112:8888/login?next=%2Ftree%3F
+[W 16:59:39.592 NotebookApp] 401 POST /login?next=%2Ftree%3F (192.168.40.129) 3.750000ms referer=http://192.168.40.112:8888/login?next=%2Ftree%3F
+[W 16:59:52.902 NotebookApp] 401 POST /login?next=%2Ftree%3F (192.168.40.129) 3.750000ms referer=http://192.168.40.112:8888/login?next=%2Ftree%3F
+[W 16:59:58.733 NotebookApp] 401 POST /login?next=%2Ftree%3F (192.168.40.129) 3.270000ms referer=http://192.168.40.112:8888/login?next=%2Ftree%3F
+[W 17:00:02.522 NotebookApp] 401 POST /login?next=%2Ftree%3F (192.168.40.129) 3.290000ms referer=http://192.168.40.112:8888/login?next=%2Ftree%3F
+[W 17:00:26.984 NotebookApp] 401 POST /login?next=%2Ftree%3F (192.168.40.129) 3.310000ms referer=http://192.168.40.112:8888/login?next=%2Ftree%3F
+[C 17:01:39.170 NotebookApp] received signal 15, stopping
+[I 17:01:39.171 NotebookApp] Shutting down 0 kernels
+[I 17:01:39.172 NotebookApp] Shutting down 0 terminals
