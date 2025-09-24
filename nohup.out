@@ -113,3 +113,345 @@
 [C 17:01:39.170 NotebookApp] received signal 15, stopping
 [I 17:01:39.171 NotebookApp] Shutting down 0 kernels
 [I 17:01:39.172 NotebookApp] Shutting down 0 terminals
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 2025-07-12 22:15:20.195 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-07-12 22:15:20.196 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-07-12 22:15:20.196 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-07-12 22:15:20.196 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-07-12 22:15:20.197 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-07-12 22:15:20.197 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 22:15:20.250 NotebookApp] Error loading server extension jupyterlab
+    Traceback (most recent call last):
+      File "/usr/lib/python3/dist-packages/notebook/notebookapp.py", line 1991, in init_server_extensions
+        func(self)
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/serverextension.py", line 71, in load_jupyter_server_extension
+        extension.initialize()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/labapp.py", line 926, in initialize
+        super().initialize()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyter_server/extension/application.py", line 437, in initialize
+        self._prepare_handlers()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyter_server/extension/application.py", line 327, in _prepare_handlers
+        self.initialize_handlers()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/labapp.py", line 738, in initialize_handlers
+        page_config["token"] = self.serverapp.identity_provider.token
+    AttributeError: 'NotebookApp' object has no attribute 'identity_provider'
+[I 22:15:20.261 NotebookApp] Serving notebooks from local directory: /home/pi/Documents/20250614_open_house_day
+[I 22:15:20.262 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 22:15:20.262 NotebookApp] http://raspberrypi:8888/
+[I 22:15:20.262 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 22:16:03.381 NotebookApp] 302 GET / (192.168.40.129) 1.420000ms
+/usr/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+/usr/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 22:18:59.729 NotebookApp] Notebook 20250701_improving_sensor_readout.ipynb is not trusted
+[I 22:19:00.270 NotebookApp] Kernel started: 3921a05f-f415-4b3b-ba21-b4a90ab74847, name: python3
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 22:19:16.604 NotebookApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 22:19:23.357 NotebookApp] Creating new file in 
+[I 22:21:17.925 NotebookApp] Saving file at /untitled.txt
+[I 22:23:50.342 NotebookApp] Saving file at /read_sensor.py
+[I 22:24:16.792 NotebookApp] Saving file at /READ.ME
+[I 22:57:43.052 NotebookApp] Starting buffering for 3921a05f-f415-4b3b-ba21-b4a90ab74847:d89b0fa5955346b4b3902f65a68ff5a5
+[W 21:28:00.980 NotebookApp] Notebook 20250701_improving_sensor_readout.ipynb is not trusted
+[I 21:29:31.232 NotebookApp] Starting buffering for 3921a05f-f415-4b3b-ba21-b4a90ab74847:15d66c2c878c47dc9f431b17b820c3bd
+[C 21:30:17.534 NotebookApp] received signal 15, stopping
+[I 21:30:17.538 NotebookApp] Shutting down 1 kernel
+[I 21:30:17.552 NotebookApp] Kernel shutdown: 3921a05f-f415-4b3b-ba21-b4a90ab74847
+[I 21:30:17.680 NotebookApp] Shutting down 0 terminals
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 2025-09-23 14:32:59.042 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-09-23 14:32:59.043 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-09-23 14:32:59.043 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-09-23 14:32:59.044 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-09-23 14:32:59.044 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-09-23 14:32:59.045 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 14:32:59.108 NotebookApp] Error loading server extension jupyterlab
+    Traceback (most recent call last):
+      File "/usr/lib/python3/dist-packages/notebook/notebookapp.py", line 1991, in init_server_extensions
+        func(self)
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/serverextension.py", line 71, in load_jupyter_server_extension
+        extension.initialize()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/labapp.py", line 926, in initialize
+        super().initialize()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyter_server/extension/application.py", line 437, in initialize
+        self._prepare_handlers()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyter_server/extension/application.py", line 327, in _prepare_handlers
+        self.initialize_handlers()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/labapp.py", line 738, in initialize_handlers
+        page_config["token"] = self.serverapp.identity_provider.token
+    AttributeError: 'NotebookApp' object has no attribute 'identity_provider'
+[I 14:32:59.127 NotebookApp] Serving notebooks from local directory: /home/pi/Documents/20250614_open_house_day
+[I 14:32:59.127 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 14:32:59.127 NotebookApp] http://raspberrypi:8888/
+[I 14:32:59.128 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 14:33:12.363 NotebookApp] 302 GET / (192.168.40.91) 1.430000ms
+[I 14:33:12.384 NotebookApp] 302 GET /tree? (192.168.40.91) 3.420000ms
+[I 14:33:18.406 NotebookApp] 302 POST /login?next=%2Ftree%3F (192.168.40.91) 703.970000ms
+/usr/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+/usr/lib/python3.9/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 14:33:42.271 NotebookApp] Kernel started: c98cf303-5cae-4f32-bce4-9ffacc47f560, name: python3
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 14:34:01.265 NotebookApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[W 14:35:25.282 NotebookApp] 404 GET /api/contents/20250923_load_data_plot.ipynb?type=notebook&content=0&_=1758605620732 (192.168.40.91): No such file or directory: 20250923_load_data_plot.ipynb
+[W 14:35:25.290 NotebookApp] No such file or directory: 20250923_load_data_plot.ipynb
+[W 14:35:25.292 NotebookApp] 404 GET /api/contents/20250923_load_data_plot.ipynb?type=notebook&content=0&_=1758605620732 (192.168.40.91) 12.810000ms referer=http://192.168.40.112:8888/notebooks/20250923_make_data.ipynb
+[I 14:35:25.313 NotebookApp] Uploading file to /20250923_load_data_plot.ipynb
+[I 14:35:42.297 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[W 14:36:08.217 NotebookApp] Notebook 20250803_add_data.ipynb is not trusted
+[I 14:36:09.204 NotebookApp] Kernel started: 19a60c00-6037-4d81-bec4-00c457aa9b86, name: python3
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 14:36:30.335 NotebookApp] Replacing stale connection: 19a60c00-6037-4d81-bec4-00c457aa9b86:2680da62ebf04830b1d7109d0124bbcb
+[I 14:36:30.339 NotebookApp] Starting buffering for 19a60c00-6037-4d81-bec4-00c457aa9b86:2680da62ebf04830b1d7109d0124bbcb
+[I 14:36:30.342 NotebookApp] Restoring connection for 19a60c00-6037-4d81-bec4-00c457aa9b86:2680da62ebf04830b1d7109d0124bbcb
+[I 14:37:42.132 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+/home/pi/.local/lib/python3.9/site-packages/nbformat/__init__.py:132: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate(nb)
+/usr/lib/python3/dist-packages/notebook/services/contents/manager.py:354: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate_nb(model['content'])
+[I 14:39:42.329 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 14:41:42.164 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 14:43:42.174 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 14:45:42.185 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 14:47:42.224 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 14:49:42.283 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 14:51:42.290 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 14:53:42.235 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 14:55:42.283 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 14:57:42.283 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:00:28.184 NotebookApp] Saving file at /read_sensor.py
+[I 15:01:42.348 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:02:10.971 NotebookApp] Saving file at /read_sensor.py
+[I 15:03:42.672 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:04:23.499 NotebookApp] Saving file at /read_sensor.py
+[I 15:05:05.765 NotebookApp] Saving file at /read_sensor.py
+[I 15:05:42.682 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:07:19.108 NotebookApp] Saving file at /read_sensor.py
+[I 15:07:42.676 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:08:05.772 NotebookApp] Starting buffering for c98cf303-5cae-4f32-bce4-9ffacc47f560:174f5e7beaff46008da03dbefe9d1997
+[I 15:08:05.787 NotebookApp] Kernel shutdown: c98cf303-5cae-4f32-bce4-9ffacc47f560
+[W 15:08:21.181 NotebookApp] Notebook 20250923_load_data_plot.ipynb is not trusted
+[I 15:08:22.058 NotebookApp] Kernel started: a73687d9-f381-4d2e-94eb-00af8be28cd4, name: python3
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[I 15:10:22.142 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:12:22.145 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:14:22.113 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:16:39.160 NotebookApp] Saving file at /read_sensor.py
+[I 15:16:55.171 NotebookApp] Saving file at /read_sensor.py
+[I 15:17:40.361 NotebookApp] Starting buffering for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+[I 15:17:42.343 NotebookApp] Kernel restarted: a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 15:17:42.421 NotebookApp] Restoring connection for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 15:17:46.956 NotebookApp] Nudge: attempt 10 on kernel a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 15:17:48.470 NotebookApp] Replaying 3 buffered messages
+[I 15:18:22.109 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:20:17.691 NotebookApp] Saving file at /read_sensor.py
+[I 15:20:22.163 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:20:30.344 NotebookApp] Starting buffering for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+[I 15:20:33.010 NotebookApp] Kernel restarted: a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 15:20:33.121 NotebookApp] Restoring connection for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 15:20:37.664 NotebookApp] Nudge: attempt 10 on kernel a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 15:20:38.672 NotebookApp] Replaying 3 buffered messages
+[I 15:21:15.943 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:22:22.129 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:24:06.806 NotebookApp] Saving file at /read_sensor.py
+[I 15:24:22.129 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:24:53.172 NotebookApp] Starting buffering for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+[I 15:24:55.262 NotebookApp] Kernel restarted: a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 15:24:55.361 NotebookApp] Restoring connection for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 15:24:59.894 NotebookApp] Nudge: attempt 10 on kernel a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 15:25:01.407 NotebookApp] Replaying 3 buffered messages
+[I 15:26:22.204 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:28:22.176 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:30:22.199 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:32:22.242 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:32:53.065 NotebookApp] Saving file at /read_sensor.py
+[I 15:33:22.952 NotebookApp] Saving file at /read_sensor.py
+[I 15:33:31.881 NotebookApp] Starting buffering for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+[I 15:33:33.964 NotebookApp] Kernel restarted: a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 15:33:34.128 NotebookApp] Restoring connection for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 15:33:38.678 NotebookApp] Nudge: attempt 10 on kernel a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 15:33:39.686 NotebookApp] Replaying 3 buffered messages
+[I 15:34:22.247 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:35:44.475 NotebookApp] Saving file at /read_sensor.py
+[I 15:36:10.783 NotebookApp] Starting buffering for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+[I 15:36:12.975 NotebookApp] Kernel restarted: a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 15:36:13.140 NotebookApp] Restoring connection for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 15:36:17.672 NotebookApp] Nudge: attempt 10 on kernel a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 15:36:18.175 NotebookApp] Replaying 3 buffered messages
+[I 15:36:22.335 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:37:33.546 NotebookApp] Saving file at /read_sensor.py
+[I 15:37:47.943 NotebookApp] Starting buffering for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+[I 15:37:49.926 NotebookApp] Kernel restarted: a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 15:37:50.010 NotebookApp] Restoring connection for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 15:37:54.545 NotebookApp] Nudge: attempt 10 on kernel a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 15:37:55.550 NotebookApp] Replaying 3 buffered messages
+[I 15:38:22.311 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:40:22.390 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:42:22.477 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:44:22.504 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:46:06.707 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[W 15:46:07.038 NotebookApp] Notebook 20250923_load_data_plot.ipynb is not trusted
+[E 15:46:07.544 NotebookApp] nbconvert failed: PyQtWebEngine is not installed to support Qt PDF conversion. Please install `nbconvert[qtpdf]` to enable.
+    Traceback (most recent call last):
+      File "/usr/lib/python3/dist-packages/notebook/nbconvert/handlers.py", line 129, in get
+        output, resources = exporter.from_notebook_node(
+      File "/home/pi/.local/lib/python3.9/site-packages/nbconvert/exporters/qt_exporter.py", line 55, in from_notebook_node
+        self._check_launch_reqs()
+      File "/home/pi/.local/lib/python3.9/site-packages/nbconvert/exporters/qt_exporter.py", line 33, in _check_launch_reqs
+        raise RuntimeError(msg)
+    RuntimeError: PyQtWebEngine is not installed to support Qt PDF conversion. Please install `nbconvert[qtpdf]` to enable.
+[W 15:46:07.552 NotebookApp] 500 GET /nbconvert/qtpdf/20250923_load_data_plot.ipynb?download=true (192.168.40.91): nbconvert failed: PyQtWebEngine is not installed to support Qt PDF conversion. Please install `nbconvert[qtpdf]` to enable.
+[E 15:46:07.593 NotebookApp] {
+      "Host": "192.168.40.112:8888",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0",
+      "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+      "Accept-Language": "en-US,en;q=0.5",
+      "Accept-Encoding": "gzip, deflate",
+      "Connection": "keep-alive",
+      "Referer": "http://192.168.40.112:8888/notebooks/20250923_load_data_plot.ipynb",
+      "Cookie": "_xsrf=2|64e6896d|95a271c26c85e4ef0cb68879f5dc9f15|1758605592; username-192-168-40-112-8888=\"2|1:0|10:1758605598|28:username-192-168-40-112-8888|44:ZDVlMzVmYmZiZGMwNDVkN2EyOTcyNWE0OGJjNDAzYWY=|efc3abcd0fce136f4c7a5907751a97be6ef14d1490bf97ee2cd54bae0a71c5ca\"",
+      "Upgrade-Insecure-Requests": "1",
+      "Priority": "u=0, i"
+    }
+[E 15:46:07.594 NotebookApp] 500 GET /nbconvert/qtpdf/20250923_load_data_plot.ipynb?download=true (192.168.40.91) 758.530000ms referer=http://192.168.40.112:8888/notebooks/20250923_load_data_plot.ipynb
+[I 15:50:22.867 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:52:23.043 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:54:22.881 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:56:22.833 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:56:56.438 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 15:57:38.821 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[W 15:57:39.178 NotebookApp] Notebook 20250923_load_data_plot.ipynb is not trusted
+[W 15:57:44.255 NotebookApp] Alternative text is missing on 4 image(s).
+[I 15:57:48.906 NotebookApp] Starting buffering for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+[I 15:57:50.991 NotebookApp] Kernel restarted: a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 15:57:51.090 NotebookApp] Restoring connection for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 15:57:55.620 NotebookApp] Nudge: attempt 10 on kernel a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 15:57:57.129 NotebookApp] Replaying 3 buffered messages
+[I 15:58:22.404 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[W 15:58:22.753 NotebookApp] Notebook 20250923_load_data_plot.ipynb is not trusted
+[W 15:58:26.924 NotebookApp] Alternative text is missing on 4 image(s).
+[I 16:00:15.552 NotebookApp] Starting buffering for a73687d9-f381-4d2e-94eb-00af8be28cd4:dbaa1257c6c84548b60b52a1ba130598
+[I 16:00:19.443 NotebookApp] Starting buffering for 19a60c00-6037-4d81-bec4-00c457aa9b86:2680da62ebf04830b1d7109d0124bbcb
+[W 16:00:22.691 NotebookApp] Forbidden
+[W 16:00:22.693 NotebookApp] 403 GET /api/sessions?_=1758605599386 (192.168.40.91) 4.310000ms referer=http://192.168.40.112:8888/tree?
+[W 16:00:22.704 NotebookApp] Forbidden
+[W 16:00:22.706 NotebookApp] 403 GET /api/terminals?_=1758605599387 (192.168.40.91) 4.150000ms referer=http://192.168.40.112:8888/tree?
+[W 16:00:24.230 NotebookApp] 403 POST /api/shutdown (192.168.40.91) 8.200000ms referer=http://192.168.40.112:8888/tree?
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[I 16:04:01.920 NotebookApp] The port 8888 is already in use, trying another port.
+[W 2025-09-23 16:04:06.853 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-09-23 16:04:06.854 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-09-23 16:04:06.854 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-09-23 16:04:06.855 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-09-23 16:04:06.855 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2025-09-23 16:04:06.856 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 16:04:06.904 NotebookApp] Error loading server extension jupyterlab
+    Traceback (most recent call last):
+      File "/usr/lib/python3/dist-packages/notebook/notebookapp.py", line 1991, in init_server_extensions
+        func(self)
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/serverextension.py", line 71, in load_jupyter_server_extension
+        extension.initialize()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/labapp.py", line 926, in initialize
+        super().initialize()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyter_server/extension/application.py", line 437, in initialize
+        self._prepare_handlers()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyter_server/extension/application.py", line 327, in _prepare_handlers
+        self.initialize_handlers()
+      File "/home/pi/.local/lib/python3.9/site-packages/jupyterlab/labapp.py", line 738, in initialize_handlers
+        page_config["token"] = self.serverapp.identity_provider.token
+    AttributeError: 'NotebookApp' object has no attribute 'identity_provider'
+[I 16:04:06.915 NotebookApp] Serving notebooks from local directory: /home/pi/Documents/20250614_open_house_day
+[I 16:04:06.915 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 16:04:06.915 NotebookApp] http://raspberrypi:8889/
+[I 16:04:06.916 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 16:04:33.567 NotebookApp] 302 GET / (192.168.40.91) 2.510000ms
+[I 16:04:33.598 NotebookApp] 302 GET /tree? (192.168.40.91) 3.360000ms
+[I 16:04:36.665 NotebookApp] 302 POST /login?next=%2Ftree%3F (192.168.40.91) 489.570000ms
+[W 16:04:49.670 NotebookApp] Notebook 20250923_load_data_plot.ipynb is not trusted
+[I 16:04:56.654 NotebookApp] Starting buffering for a73687d9-f381-4d2e-94eb-00af8be28cd4:c756d21c84b548508bdb7ef351bbc55e
+[I 16:04:58.638 NotebookApp] Kernel restarted: a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 16:04:58.726 NotebookApp] Restoring connection for a73687d9-f381-4d2e-94eb-00af8be28cd4:c756d21c84b548508bdb7ef351bbc55e
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 16:05:03.261 NotebookApp] Nudge: attempt 10 on kernel a73687d9-f381-4d2e-94eb-00af8be28cd4
+[W 16:05:04.187 NotebookApp] Notebook 20250923_load_data_plot.ipynb is not trusted
+[W 16:05:04.197 NotebookApp] Trusting notebook /20250923_load_data_plot.ipynb
+[I 16:05:04.236 NotebookApp] Replaying 3 buffered messages
+[I 16:06:50.360 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 16:07:04.970 NotebookApp] Starting buffering for a73687d9-f381-4d2e-94eb-00af8be28cd4:c756d21c84b548508bdb7ef351bbc55e
+[I 16:07:06.956 NotebookApp] Kernel restarted: a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 16:07:07.035 NotebookApp] Restoring connection for a73687d9-f381-4d2e-94eb-00af8be28cd4:c756d21c84b548508bdb7ef351bbc55e
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 16:07:11.567 NotebookApp] Nudge: attempt 10 on kernel a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 16:07:12.576 NotebookApp] Replaying 3 buffered messages
+[I 16:08:47.068 NotebookApp] Starting buffering for a73687d9-f381-4d2e-94eb-00af8be28cd4:c756d21c84b548508bdb7ef351bbc55e
+[I 16:08:49.165 NotebookApp] Kernel restarted: a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 16:08:49.219 NotebookApp] Restoring connection for a73687d9-f381-4d2e-94eb-00af8be28cd4:c756d21c84b548508bdb7ef351bbc55e
+[I 16:08:50.446 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 16:08:53.752 NotebookApp] Nudge: attempt 10 on kernel a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 16:08:54.760 NotebookApp] Replaying 3 buffered messages
+[I 16:10:16.769 NotebookApp] Starting buffering for a73687d9-f381-4d2e-94eb-00af8be28cd4:c756d21c84b548508bdb7ef351bbc55e
+[I 16:10:18.862 NotebookApp] Kernel restarted: a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 16:10:18.935 NotebookApp] Restoring connection for a73687d9-f381-4d2e-94eb-00af8be28cd4:c756d21c84b548508bdb7ef351bbc55e
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 16:10:23.464 NotebookApp] Nudge: attempt 10 on kernel a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 16:10:24.475 NotebookApp] Replaying 3 buffered messages
+[I 16:10:50.598 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[I 16:11:32.982 NotebookApp] Starting buffering for a73687d9-f381-4d2e-94eb-00af8be28cd4:c756d21c84b548508bdb7ef351bbc55e
+[I 16:11:34.978 NotebookApp] Kernel restarted: a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 16:11:35.149 NotebookApp] Restoring connection for a73687d9-f381-4d2e-94eb-00af8be28cd4:c756d21c84b548508bdb7ef351bbc55e
+/usr/lib/python3/dist-packages/astroid/interpreter/_import/util.py:4: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+[W 16:11:39.697 NotebookApp] Nudge: attempt 10 on kernel a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 16:11:40.201 NotebookApp] Replaying 3 buffered messages
+[I 16:12:25.250 NotebookApp] Saving file at /20250923_load_data_plot.ipynb
+[W 16:12:30.548 NotebookApp] Alternative text is missing on 4 image(s).
+[I 22:00:23.730 NotebookApp] Starting buffering for a73687d9-f381-4d2e-94eb-00af8be28cd4:c756d21c84b548508bdb7ef351bbc55e
+[W 22:00:43.965 NotebookApp] Forbidden
+[W 22:00:43.969 NotebookApp] 403 GET /api/sessions?_=1758611077022 (192.168.40.91) 6.560000ms referer=http://192.168.40.112:8888/tree?
+[W 22:00:43.977 NotebookApp] Forbidden
+[W 22:00:43.979 NotebookApp] 403 GET /api/terminals?_=1758611077023 (192.168.40.91) 4.620000ms referer=http://192.168.40.112:8888/tree?
+[W 22:00:46.523 NotebookApp] 403 POST /api/shutdown (192.168.40.91) 3.850000ms referer=http://192.168.40.112:8888/tree?
+[W 22:00:48.085 NotebookApp] 403 POST /api/shutdown (192.168.40.91) 8.290000ms referer=http://192.168.40.112:8888/tree?
+[W 22:00:56.220 NotebookApp] 403 POST /api/shutdown (192.168.40.91) 8.100000ms referer=http://192.168.40.112:8888/tree?
+[W 22:01:01.369 NotebookApp] Forbidden
+[W 22:01:01.371 NotebookApp] 403 GET /api/sessions?_=1758611077024 (192.168.40.91) 4.590000ms referer=http://192.168.40.112:8888/tree?
+[W 22:01:01.379 NotebookApp] Forbidden
+[W 22:01:01.381 NotebookApp] 403 GET /api/terminals?_=1758611077025 (192.168.40.91) 4.350000ms referer=http://192.168.40.112:8888/tree?
+[C 22:21:05.028 NotebookApp] received signal 15, stopping
+[C 22:21:05.029 NotebookApp] received signal 15, stopping
+[I 22:21:05.029 NotebookApp] Shutting down 2 kernels
+[I 22:21:05.030 NotebookApp] Kernel shutdown: 19a60c00-6037-4d81-bec4-00c457aa9b86
+[I 22:21:05.031 NotebookApp] Shutting down 0 kernels
+[I 22:21:05.033 NotebookApp] Shutting down 0 terminals
+[I 22:21:05.162 NotebookApp] Kernel shutdown: a73687d9-f381-4d2e-94eb-00af8be28cd4
+[I 22:21:05.182 NotebookApp] Shutting down 0 terminals
